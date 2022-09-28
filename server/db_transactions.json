@@ -1,21 +1,33 @@
 {
   "transactions": [
     {
-      "name": "rent",
-      "type": "expense",
-      "amount": 14999,
-      "id": 4
-    },
-    {
-      "name": "Salary form Facebook",
+      "name": "Salary",
       "type": "income",
-      "amount": 100000,
-      "id": 5
+      "amount": 250000,
+      "id": 1
     },
     {
       "name": "Earning from YouTube",
       "type": "income",
-      "amount": 100000,
+      "amount": 25000,
+      "id": 2
+    },
+    {
+      "name": "House rent",
+      "type": "expense",
+      "amount": 25000,
+      "id": 4
+    },
+    {
+      "name": "Misc",
+      "type": "expense",
+      "amount": 15000,
+      "id": 5
+    },
+    {
+      "name": "Home sweet home",
+      "type": "expense",
+      "amount": 50000,
       "id": 6
     }
   ]
