@@ -17,6 +17,12 @@
       "type": "expense",
       "amount": 200,
       "id": 4
+    },
+    {
+      "name": "Salary from Google",
+      "type": "income",
+      "amount": 500000,
+      "id": 7
     }
   ]
 }
