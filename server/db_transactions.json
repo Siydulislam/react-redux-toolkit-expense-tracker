@@ -1,22 +1,22 @@
 {
   "transactions": [
     {
-      "name": "salary",
-      "type": "income",
-      "amount": 25000,
-      "id": 1
-    },
-    {
       "name": "rent",
       "type": "expense",
       "amount": 14999,
-      "id": 2
+      "id": 4
     },
     {
-      "name": "www",
-      "type": "expense",
-      "amount": 1234,
-      "id": 3
+      "name": "Salary form Facebook",
+      "type": "income",
+      "amount": 100000,
+      "id": 5
+    },
+    {
+      "name": "Earning from YouTube",
+      "type": "income",
+      "amount": 100000,
+      "id": 6
     }
   ]
 }
