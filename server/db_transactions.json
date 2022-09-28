@@ -11,6 +11,12 @@
       "type": "expense",
       "amount": 14999,
       "id": 2
+    },
+    {
+      "name": "www",
+      "type": "expense",
+      "amount": 1234,
+      "id": 3
     }
   ]
 }

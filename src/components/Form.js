@@ -9,13 +9,20 @@ export default function Form() {
     const dispatch = useDispatch();
     const { isLoading, isError } = useSelector(state => state.transaction);
 
+    const reset = () => {
+        setName("");
+        setType("");
+        setAmount("");
+    }
+
     const handleCreate = e => {
         e.preventDefault();
         dispatch(createTransaction({
             name,
             type,
             amount: Number(amount),
-        }))
+        }));
+        reset();
     }
 
     return (
